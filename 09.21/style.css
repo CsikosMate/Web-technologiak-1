@@ -1,0 +1,48 @@
+body{
+    background-color: lightblue;
+}
+
+p{
+    color: lightgray;
+    text-align: center;
+}
+
+.blueClass{
+    color: blue;
+}
+
+div#important{
+    font-size: 50px;
+}
+
+.borderClass{
+    border: 15px dotted;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td, th{
+    padding: 5px;
+    border: 1px solid black;
+}
+
+tr:nth-child(even) {
+    background-color: #1061a3;
+}
+tr:nth-child(odd) {
+    background-color: #5a9dd4;
+}
+
+tr:hover{
+    background-color: #26adbe;
+}
+
+th{
+    color: white;
+    background-color: #174cdd;
+}
