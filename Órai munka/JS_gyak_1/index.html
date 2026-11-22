@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Űrlap</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="content">
+        <h1>Adatlap</h1>
+        <form>
+            <div class="question">
+                <label for="name">Név</label>
+                <input type="text" name="name" id="name">
+                <p id="nameError" class="error">A név mező üres</p>
+            </div>
+            <div class="question">
+                <label for="address">Lakcím</label>
+                <input type="text" name="address" id="address">
+                <p id="addressError" class="error">A lakcím mező üres</p>
+            </div>
+            <div class="question">
+                <label for="age">Kor</label>
+                <input type="number" min="18" max="100" name="age" id="age">
+                <p id="ageError" class="error">A kor mező érvénytelen</p>
+            </div>
+            <div class="question">
+                <label for="motherName">Anyja neve</label>
+                <input type="text" name="motherName" id="motherName">
+                <p id="motherNameError" class="error">Az anyja neve mező üres</p>
+            </div>
+            <div class="question">
+                <label for="university">Egyetem neve</label>
+                <input type="text" name="university" id="university">
+                <p id="universityError" class="error">Az Egyetem neve mező üres</p>
+            </div>
+            <div class="question">
+                <label for="faculty">Kar neve</label>
+                <input type="text" name="faculty" id="faculty">
+                <p id="facultyError" class="error">A kar neve mező üres</p>
+            </div>
+            <div class="question">
+                <label for="degreeProgramme">Szak neve</label>
+                <input type="text" name="degreeProgramme" id="degreeProgramme">
+                <p id="degreeProgrammeError" class="error">A szak neve mező üres</p>
+            </div>
+            <div class="question">
+                <label for="studentIdNumber">Diákigazolvány szám</label>
+                <input type="text" name="studentIdNumber" id="studentIdNumber">
+                <p id="studentIdNumberError" class="error">A diákigazolvány szám mező érvénytelen</p>
+            </div>
+            <div class="question">
+                <input type="checkbox" name="policy" id="policy">
+                <label for="policy">Elfogadom az adatkezelési szabályzatot</label>
+                <p id="policyError" class="error">Ezt kötelező elfogadni</p>
+            </div>
+            <button type="button" onclick="sendForm()">Küldés</button>
+        </form>
+    </div>
+</body>
+</html>

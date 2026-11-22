@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Űrlap</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="content">
+        <h1>Űrlap</h1>
+        <form>
+            <div class="question">
+                <label for="name">Név</label>
+                <p id="nameError" class="error">A név mező minimum 10 karakter</p>
+                <input type="text" name="name" id="name">
+            </div>
+            <div class="question">
+                <label for="birthDate">Születési dátum</label>
+                <p id="birthDateError" class="error">Az életkor üres</p>
+                <input type="date" name="birthDate" id="birthDate">
+            </div>
+            <div class="question">
+                <label for="motherName">Anyja neve</label>
+                <p id="motherNameError" class="error">Az anyja neve mező minimum 10 karakter</p>
+                <input type="text" name="motherName" id="motherName">
+            </div>
+            <div class="question">
+                <label for="idCardNumber">TAJ szám</label>
+                <p id="idCardNumberError" class="error">A TAJ szám mező 8 számjegy</p>
+                <input type="text" name="idCardNumber" id="idCardNumber">
+            </div>
+            <div class="question">
+                <label for="gender">Nem</label>
+                <select name="gender" id="gender">
+                    <option value="woman">Nő</option>
+                    <option value="man">Férfi</option>
+                </select>
+            </div>
+            <p>Lakcím</p>
+            <div class="question">
+                <label for="addressNumber">Irányítószám</label>
+                <input type="text" name="addressNumber" id="addressNumber">
+                <p id="addressNumberError" class="error">A munkahely mező minimum 5 karakter</p>
+            </div>
+            <div class="question">
+                <label for="addressCity">Település</label>
+                <input type="text" name="addressCity" id="addressCity">
+                <p id="addressCityError" class="error">A munkahely mező minimum 5 karakter</p>
+            </div>
+            
+            <div class="question">
+                <label for="addressStreet">Utca</label>
+                <input type="text" name="addressStreet" id="addressStreet">
+                <p id="addressStreetError" class="error">A fizetés mező minimum 200</p>
+            </div>
+            <div class="question">
+                <label for="addressHousenumber">Házszám</label>
+                <input type="number" name="addressHousenumber" id="addressHousenumber">
+                <p id="addressHousenumberError" class="error">A munkahely mező minimum 5 karakter</p>
+            </div>
+            <div class="question">
+                <label for="addressNumber">Lépcsőház</label>
+                <input type="text" name="addressNumber" id="addressNumber">
+                <p id="addressNumberError" class="error">A munkahely mező minimum 5 karakter</p>
+            </div>
+            <button type="button" onclick="sendForm()">Küldés</button>
+        </form>
+    </div>
+</body>
+</html>

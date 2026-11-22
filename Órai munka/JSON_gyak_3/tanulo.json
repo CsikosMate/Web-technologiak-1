@@ -1,0 +1,7 @@
+{
+    "nev": "Hallgató Attila",
+    "eletkor": 23,
+    "egyetem": "Debreceni Egyetem",
+    "tantargyak": ["Analízis I.", "Analízis II.", "Fizika I."],
+    "vegzos": true
+}

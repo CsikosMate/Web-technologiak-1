@@ -1,0 +1,26 @@
+{
+    "cegNeve": "Vállalkozás Kft.",
+    "arbevetel": 1000000,
+    "ugyvezetoNeve": "Balázs",
+    "szekhely": "Miskolc",
+    "munkavallalok": [
+        {
+            "nev": "András",
+            "anyaNeve": "Eerzsébet",
+            "fizetes": 234567,
+            "beosztas": "HR igazgató"
+        },
+        {
+            "nev": "Béla",
+            "anyaNeve": "Margit",
+            "fizetes": 180000,
+            "beosztas": "Biztonsági őr"
+        },
+        {
+            "nev": "Elemér",
+            "anyaNeve": "Katalin",
+            "fizetes": 300000,
+            "beosztas": "Portás"
+        }
+    ]
+}

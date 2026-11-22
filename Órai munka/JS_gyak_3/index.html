@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Űrlap</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="content">
+        <h1>Munkavállaló űrlap</h1>
+        <form>
+            <div class="question">
+                <label for="name">Név</label>
+                <input type="text" name="name" id="name">
+                <p id="nameError" class="error">A név mező minimum 10 karakter</p>
+            </div>
+            <div class="question">
+                <label for="age">Életkor</label>
+                <input type="number" min="0" max="120" name="age" id="age">
+                <p id="ageError" class="error">Az életkor 0 és 120 közötti</p>
+            </div>
+            <div class="question">
+                <label for="work">Munkahely</label>
+                <input type="text" name="work" id="work">
+                <p id="workError" class="error">A munkahely mező minimum 5 karakter</p>
+            </div>
+            <div class="question">
+                <label for="salery">Fizetés (eFt)</label>
+                <input type="number" min="200" name="salery" id="salery">
+                <p id="saleryError" class="error">A fizetés mező minimum 200</p>
+            </div>
+            <div class="question">
+                <label for="jobDescription">Munkaköri leírás</label>
+                <textarea name="jobDescription" id="jobDescription"></textarea>
+                <p id="jobDescriptionError" class="error">A munkaköri leírás mező minimum 200 karakter</p>
+            </div>
+            <div class="question">
+                <label for="education">Legmagasabb iskolai végzettség</label>
+                <select name="education" id="education">
+                    <option value="altalanos">Általános iskola</option>
+                    <option value="erettsegi">Érettségi</option>
+                    <option value="bsc">Főiskola (BSc)</option>
+                    <option value="msc">Egyetem (MSc)</option>
+                </select>
+            </div>
+            <div class="question">
+                <label for="gender">Nem</label>
+                <input type="checkbox" name="gender" id="gender">
+                <label for="gender">Nő</label>
+            </div>
+            <button type="button" onclick="sendForm()">Küldés</button>
+        </form>
+    </div>
+</body>
+</html>

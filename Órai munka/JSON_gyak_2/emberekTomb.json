@@ -1,0 +1,29 @@
+[
+    {
+        "nev": "András",
+        "eletkor": 45,
+        "anyaNeve": "Eerzsébet",
+        "lakcim": "Miskolc",
+        "fizetes": 234567,
+        "szakma": "Repölőgép pilóta",
+        "munkahely": "Budapest"
+    },
+    {
+        "nev": "Béla",
+        "eletkor": 18,
+        "anyaNeve": "Margit",
+        "lakcim": "Sajóbábony",
+        "fizetes": 180000,
+        "szakma": "Vendéglátás",
+        "munkahely": "Mcdonalds"
+    },
+    {
+        "nev": "Elemér",
+        "eletkor": 100,
+        "anyaNeve": "Katalin",
+        "lakcim": "Parasznya",
+        "fizetes": 300000,
+        "szakma": "Ács",
+        "munkahely": "Nyugdíjas"
+    }
+]
